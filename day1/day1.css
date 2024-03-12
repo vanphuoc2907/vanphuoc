@@ -11,12 +11,67 @@ header {
     display: grid;
     grid-template-columns: 7fr 3fr;
     gap: 10px;
+    margin-bottom: 10px;
 }
 .main-left {
+  
+}
+.main-right {
+    
+}
+.header{
+    height: 50px;
+    background-color: violet;
+    margin-bottom: 10px;
+
+}
+.main-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.box{
     height: 300px;
     background-color: orange;
 }
-.main-right {
+.right-bottom {
+    display: grid ;
+    grid-template-columns: 3fr 7fr;
+    gap: 10px;
+
+}
+.box1{
     height: 300px;
-    background-color: chartreuse;
+   
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+.box2{
+    height: 300px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    gap: 10px;
+}
+
+.box3 {
+    background-color: aquamarine;
+}
+.box4 {
+    background-color: green;
+
+}
+.main{
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+    gap: 10px;
+}
+.box5{
+    background-color: orange;
+}
+footer{
+    height: 50px;
+    background-color: red;
+    margin-top: 10px;
 }
