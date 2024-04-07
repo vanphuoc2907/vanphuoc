@@ -48,13 +48,14 @@ header li {
     height: 34px;
     text-align: center;
     color: #CB0046;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
  h2 {
     font-size: 50px;
     text-align: center;
     color: crimson;
     margin-bottom: 50px;
+    margin-top: 20px;
 }  
     
 header {
@@ -79,6 +80,7 @@ img {
 .box {
     width: 49%;
     color: red;
+    margin-top: 20px;
 }
 .box p {
     text-align: center;
@@ -89,11 +91,10 @@ a:hover {
 footer{
     font-size: 15px;
     text-align: center;
-    margin-top: 40px;
     color: white;
     background-color: black;
-    margin-top: 15px;
-    margin-bottom: 30px;
+    margin-top: 40px;
+    padding: 30px;
     
 }
 
@@ -111,4 +112,8 @@ footer h3{
     font-size: 10px;
     margin-top: 40px;
     
+}
+hr {
+    width: 40%;
+    margin: 0 auto;
 }
