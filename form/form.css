@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2016/03/23/15/00/ice-cream-1274894_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    form {
+        background-color: antiquewhite;
+        width: 35%;
+        height: 90%;
+        border-radius: 10px;
+        padding: 20px 40px;
+        box-shadow:  rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(0, 0, 0, 0.1) 0px 8px 16px 0px;
+        h1 {
+            text-align: center;
+        }
+        .form-group {
+            margin-top: 10px;
+            input {
+                width: 100%;
+                padding: 5px;
+            }
+            select {
+                width: 100%;
+                padding: 5px;
+            }
+            textarea {
+                width: 100%;
+                padding: 10px;
+            }
+            input[type="checkbox"] {
+                width: auto !important;
+                margin-left: 10px;
+            }
+            input[type="radio"] {
+                width: auto !important;
+                margin-left: 10px;
+            }
+            input[type="file"] {
+                width: auto !important;
+                margin-left: 10px;
+            }        
+        }
+        .button {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 20px;
+            button {
+                padding: 5px 10px;
+                border-radius: 5px;
+                background-color: forestgreen;
+                color: white;
+                
+            }
+        }
+    }
+}
